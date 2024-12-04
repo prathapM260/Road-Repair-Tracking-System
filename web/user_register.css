@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    background: linear-gradient(to right, #FF8C00, #FFD700);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    caret-color: red;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    margin-left: 0;
+}
+
+.container-1 {
+    height: 90px;
+    width: 100%;
+    max-width: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    padding: 0;
+}
+
+.text-center {
+    margin: 0;
+}
+
+.logo-text p {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+.text {
+    color: #DD6E0F;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: #DD6E0F;
+}
+
+.small-text {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: -15px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    position: relative;
+    width: 650px;
+    margin: 20px 0;
+    border-radius: 40px;
+    padding: 40px;
+    background: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.brand-logo {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-image: url("C:/Users/ediga/Pictures/user3.png");
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.brand-title {
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    color: orange;
+    font-weight: 600;
+}
+
+.registration-link {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.error-message {
+    color: orange;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+
+label, input, button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.login-button:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.login-button:active {
+    background-color: greenyellow;
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+input::placeholder {
+    color: gray;
+}
+
+.input-field {
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1px solid orange;
+    background: #ecf0f3;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px rgba(255, 165, 0, 0.5), inset -6px -6px 6px rgba(255, 165, 0, 0.5);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.input-field:hover {
+    border-color: orange;
+    box-shadow: inset 6px 6px 6px whitesmoke, inset -6px -6px 6px black;
+    transform: scale(1.05);
+}
+
+button {
+    color: orange;
+    margin-top: 20px;
+    background: gray;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #cbced1, -2px -2px -1px white;
+    transition: 0.1s;
+}
+
+button:hover {
+    box-shadow: none;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
